@@ -5,6 +5,8 @@ const ORG_ID = "621a13401aac5a00018169f5"
 const API_ID = "199c094405cb44d3497bdfece168cb2c"
 const VERSIONS = ["DEFAULT"]
 
+//*   Create Custom Keys via Dashboard API
+
 const newKeyIds = Array.from({ length: 1000 }, () => uuid())
 
 const createKeyURL = "http://localhost:3000/api/keys/"
